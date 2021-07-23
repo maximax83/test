@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Форма и её элементы</title>
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+	</style>
+</head>
+<body class="page">
+
+
+
+	<input type="radio" id="for_form" class="for_label"><!-- Не стандартное применение <label> - отсутствующая в css реакция на клик -->
+
+
+
+	<form action="#" method="get" enctype="multipart/form-data">
+
+		<fieldset>
+			<legend>Элементы <br>ввода</legend>
+			<h1>Элементы ввода</h1>
+
+			<div>
+				<h2>input type="text" </h2>
+				<input          type="text"     placeholder="Текст..." name="text" tabindex="-1" required minlength="8" maxlength="128" pattern="[а-яА-Яa-zA-Z]+" title="Текст может содержать только русские буквы"><!-- value="text-val" -->
+			</div>
+			<div>
+				<h2>input type="text" readonly</h2>
+				<input readonly type="text"     placeholder="Текст..." name="text-readonly"  tabindex="-1" required><!-- value="text-readonly-val" -->
+			</div>
+			<div>
+				<h2>input type="text" disabled</h2>
+				<input disabled type="text"     placeholder="Текст..." name="text-disabled"  tabindex="-1" required><!-- value="text-disabled-val" -->
+			</div>
+			<br>
+
+			<div>
+				<h2>input type="hidden" </h2>
+				<input          type="hidden"                          name="hidden"         value="hidden-val">
+			</div>
+			<br>
+
+			<div>
+				<h2 class="html5">input type="tel"  (проверить на смартфоне)</h2>
+				<input          type="tel"      placeholder="Телефон"  name="phone" value="" required>
+			</div>
+			<br>
+
+			<div>
+				<h2>input type="password" </h2>
+				<input          type="password" placeholder="Пароль"   name="password"  value="" required>
+			</div>
+			<br>
+
+			<div>
+				<h2>input type="radio" </h2>
+				<input         type="radio" name="type-beer" value="lager" required>Светлое
+				<input         type="radio" name="type-beer" value="dark"  required>Тёмное
+				<input         type="radio" name="type-beer" value="vita"  required>Живое
+			</div>
+			<div>
+				<h2>input type="checkbox"</h2>
+				<input         type="checkbox" name="beer"   value="beer"   required>Пиво
+				<input checked type="checkbox" name="tea"    value="tea"    required>Чай
+				<input         type="checkbox" name="coffee" value="coffee" required>Кофе
+			</div>
+			<br>
+
+			<div>
+				<h2>textarea</h2>
+				<textarea name="textarea" placeholder="txt_area" tabindex="2" required></textarea>
+			</div>
+			<br>
+
+			<div>
+				<h2>input type="file" </h2>
+				<input type="file" name="foto" required>
+			</div>
+			<br>
+
+
+
+			<div>
+
+				<h2>select</h2>
+				<select name="background">
+					<option          value="red">красный</option>
+					<option selected value="green">зелённый</option>
+					<option          value="blue">синий</option>
+				</select>
+				<h2>select size="2"</h2>
+				<select name="background-2" size="2" required>
+					<option          value="orange">оранжевый</option>
+					<option          value="yellow">жёлтый</option>
+					<option          value="gray">серый</option>
+					<option          value="purple">фиолетовый</option>
+					<option          value="khaki">хаки</option>
+				</select>
+
+				<h2>select multiple</h2>
+				<select multiple name="background-3" required>
+					<option value="red">красный</option>
+					<option value="green">зелённый</option>
+					<option value="blue">синий</option>
+				</select>
+				<h2>select multiple size="1"</h2>
+				<select multiple name="background-4" size="1" required>
+					<option value="red">красный</option>
+					<option value="green">зелённый</option>
+					<option value="blue">синий</option>
+				</select>
+
+				<h2>select optgroup</h2>
+				<select name="live-select">
+					<optgroup          label="<optgroup> Цвета">
+						<option value="red" label="red">красный</option>
+						<option value="green">зелённый</option>
+						<option value="blue">синий</option>
+						<option value="orange">оранжевый</option>
+						<option value="yellow">жёлтый</option>
+						<option value="gray">серый</option>
+						<option value="purple">фиолетовый</option>
+						<option value="khaki">хаки</option>
+					</optgroup>
+					<optgroup disabled label="<optgroup> Время дня">
+						<option          value="morning">утро</option>
+						<option selected value="dinner">обед</option>
+						<option          value="evening">вечер</option>
+					</optgroup>
+				</select>
+
+			</div>
+
+
+
+			<div>
+				<h2 class="html5">input type="color" </h2>
+				<input type="color"        name="color"       value="#000000">
+			</div>
+			<div>
+				<h2 class="html5">input type="date" </h2>
+				<input type="date"         name="date"         required><!-- value="2001-01-01" -->
+			</div>
+													<!-- <div>
+														<h2 class="html5">input type="datetime" </h2>
+														<input type="datetime"     name="datetime"     >
+													</div> -->
+			<div>
+				<h2 class="html5">input type="datetime-local" </h2>
+				<input type="datetime-local" name="datetime-local" value="" required>
+			</div>
+			<div>
+				<h2 class="html5">input type="email" </h2>
+				<input type="email"        name="email"         required><!-- value="xxx@x.com" -->
+			</div>
+			<div>
+				<h2 class="html5">input type="number" </h2>
+				<input type="number"       name="number"        required><!-- value="5" -->
+			</div>
+			<div>
+				<h2 class="html5">input type="range" </h2>
+				<input type="range"        name="range"       value="25" >
+			</div>
+			<div>
+				<h2 class="html5">input type="search" </h2>
+				<input type="search"       name="search"        required><!-- value="???" -->
+			</div>
+			<div>
+				<h2 class="html5">input type="tel" </h2>
+				<input type="tel">
+			</div>
+			<div>
+				<h2 class="html5">input type="time" </h2>
+				<input type="time"         name="time"        value="" required>
+			</div>
+			<div>
+				<h2 class="html5">input type="url" </h2>
+				<input type="url"          name="url"          required><!-- value="https://x.com" -->
+			</div>
+			<div>
+				<h2 class="html5">input type="month" </h2>
+				<input type="month"        name="month"         required><!-- value="2000-01" -->
+			</div>
+			<div>
+				<h2 class="html5">input type="week" </h2>
+				<input type="week"         name="week"          tabindex="3" required><!-- value="2000-W10" -->
+			</div>
+
+		</fieldset>
+
+
+
+
+
+
+
+
+
+
+		<div>
+			<h1>Просто кноки</h1>
+			<div>
+				<h2>input type="button" </h2>
+				<input type="button" name="input-button" value="input-button-val">
+			</div>
+			<div>
+				<h2>button type="button" </h2>
+				<button type="button" name="button-button" value="button-button-val">BUTTON-BUTTON</button>
+			</div>
+		</div>
+
+
+
+		<div>
+			<h1>label</h1>
+			<div>
+				<h2>input label </h2>
+				<input type="text" id="label_1">
+				<label for="label_1">Текстовая метка для input</label>
+			</div>
+
+			<div>
+				<h2>page label </h2>
+				<label for="for_form">Текстовая метка для form</label>
+			</div>
+
+			<div>
+				<h2> label input label </h2>
+				<label>
+					Текстовая метка для input внутри label
+					<input type="text">
+				</label>
+			</div>
+		</div>
+
+
+
+		<div>
+			<h1>Сброс формы</h1>
+			<div>
+				<h2>input type="reset" </h2>
+				<input type="reset"  name="input-reset">
+			</div>
+			<div>
+				<h2>button type="reset" </h2>
+				<button type="reset" name="button-reset" value="button-reset-val">BUTTON-RESET</button>
+			</div>
+		</div>
+
+
+
+		<div>
+			<h1>Отправка формы</h1>
+			<div>
+				<h2>input type="submit" </h2>
+				<input type="submit" name="input-submit">
+			</div>
+			<div>
+				<h2>button type="submit" </h2>
+				<button type="submit" name="button-submit"  value="button-submit-val" tabindex="1">BUTTON-SUBMIT</button>
+			</div>
+			<div>
+				<h2>input type="image" </h2>
+				<input type="image" src="img/chislo_8.jpg" alt="input-image" style="width: 100px;" name="input-image">
+			</div>
+		</div>
+
+
+
+
+
+	</form>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
