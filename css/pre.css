@@ -1,0 +1,170 @@
+/*
+.page {
+	background-color: #fff;
+}*/
+/*
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}*/
+/*
+.wrapper-alt {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}*/
+
+
+
+
+/*
+.txt {
+	font-family: Golos;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #000;
+}*/
+
+
+
+
+
+/* h2 */
+/*.title {
+	font-weight: 600;
+	font-size: 23px;
+	letter-spacing: 0.03em;
+}*/
+
+/* h1 */
+/*.title_main {
+	font-size: 25px;
+}*/
+
+/* h3 */
+/*.title_sub-title {
+	font-size: 18px;
+}*/
+
+
+
+
+
+												/*.txt-about {
+													font-weight: 400;
+													font-size: 16px;
+												}*/
+
+												/*.txt-about__b {
+													font-size: 16px;
+												}*/
+
+
+
+/*.link:hover {
+	text-decoration: underline;
+}*/
+
+
+
+/*.list-item {
+	display: flex;
+}*/
+
+/*.list-item_marker-1:before {
+	content: '';
+	width: 20px;
+	border-top: 2px solid;
+	margin: 0.5em 15px 0 0;
+	flex-shrink: 0;
+}*/
+
+/*.list-item_marker-2 {
+	width: 35px;
+	height: 35px;
+	margin: 0 15px 0 0;
+	background: url('../img/marker-1.svg') center/contain no-repeat;
+	flex-shrink: 0;
+}*/
+
+.list-item__content {}
+
+
+
+/*.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}*/
+
+
+/*.btn_submit {
+	width: 137px;
+	min-height: 40px;
+	background-color: #3E4A70;
+	color: #fff;
+}*/
+
+/*.btn_login {
+	width: 197px;
+	min-height: 40px;
+	background-color: #3E4A70;
+	color: #fff;
+}*/
+
+/*.btn_login-alt {
+	width: 197px;
+	min-height: 40px;
+	border: 2px solid;
+	color: #3E4A70;
+}*/
+
+/*.btn-apply {
+	width: 186px;
+	min-height: 48px;
+	background-color: #F85F73;
+	color: #fff;
+}*/
+
+/*.btn_apply-alt {
+	width: 182px;
+	min-height: 40px;
+	background-color: #3E4A70;
+	color: #fff;
+}*/
+
+
+
+
+
+/*@media (max-width: 600px) {
+
+	.title_main {
+		font-size: 20px;
+	}
+
+	.title_sub-title {
+		font-size: 16px;
+	}
+
+}*/
+
+
+
+
+
+
+
+/*.nav__item {
+	color: #333;
+}*/
+
+/*.footer {
+	color: #fff;
+}*/
+
