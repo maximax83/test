@@ -1,3 +1,5 @@
+alert('start' + '\n' + 'window.innerWidth = ' + window.innerWidth);
+
 // ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ
 const html = document.querySelector('html');
 
