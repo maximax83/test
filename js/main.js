@@ -103,12 +103,12 @@ function unlockPageScroll() {
 
 
 // Слайдер SWIPER. ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-/*new Swiper('.intro-slider', {
+new Swiper('.intro-slider', {
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
 	},
-});*/
+});
 
 
 
