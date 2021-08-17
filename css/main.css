@@ -402,7 +402,7 @@ html {box-sizing: border-box;}
 
 /* Секция header. |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .header {
-	position: sticky;
+	position: fixed;
 	z-index: 10;
 	top: 0;
 	left: 0;
@@ -754,7 +754,7 @@ html {box-sizing: border-box;}
 
 
 /* Секция main. |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-.main {}
+.main {margin: 160px 0 0 0;}
 
 
 
